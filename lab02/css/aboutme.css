@@ -1,0 +1,58 @@
+body{
+    background-color: #afb8badc;
+    background-image: url();
+}
+header{
+    background-color: rgb(212, 208, 208);
+    font-size:x-large;
+}
+h1{
+    color: brown;
+}
+.s1{
+    font-style: italic;
+    color: blue;
+}
+.s2::first-letter{
+    font-style: italic;
+  font-size: 35px;
+  color: blueviolet;
+}
+.foo{
+    background-color: rgb(240, 251, 255);
+}
+
+.img{
+    width: 300px; 
+    height: 300px; 
+    margin-right: 50px;
+}
+
+.mydiv{
+    display: flex;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+}
+
+.hover a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.unorderline{
+    list-style-type: circle;
+}
+.und{
+    font-style: italic;
+    color: rgba(0, 255, 81, 0.829);
+    text-decoration-line: underline;
+}
+.div2{
+    display: inline;
+    float: right;
+}
+.css{
+    width: 90px;
+    height: 32px;     
+}
