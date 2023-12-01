@@ -1,0 +1,48 @@
+/* styles.css */
+
+.navbar {
+    background-color:#36A7E8;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link
+{
+    color: white !important;
+}
+
+.nav-link:hover, 
+.navbar-brand:hover {
+    color: green!important;
+}
+.navbar-nav .btn-sign-out {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-reset {
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #6C757D !important; /* Add !important to override default Bootstrap styles */
+}
+.btn-color{
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #FFC107 !important; /* Add !important to override default Bootstrap styles */
+}
+.btn-add-product{
+    background-color: white !important; /* Add !important to override default Bootstrap styles */
+    color: #0DCAF0 !important; /* Add !important to override default Bootstrap styles */
+}
+
+
+.btn-reset:hover,
+.btn-color:hover,
+.btn-add-product:hover {
+    background-color: #033C73 !important;
+    color: white !important;
+}

@@ -1,4 +1,57 @@
 body{
-    background-color: #afb8badc;
-    background-image: url();
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 241, 237); 
+    font-family: "GDS Transport",arial,sans-serif;
+}
+header {
+    background-image: url('../img/download.jpeg');
+    background-size: cover; 
+    width: 100vw;
+    height: 310px; 
+    padding: 0px;
+    box-sizing:calc();
+    text-align: left;
+    color: rgb(234, 231, 231);
+    opacity: 0.9;
+
+    
+  }
+.ban{
+    width: 200px; 
+    height: 200px;
+    border-radius: 100%; 
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 0px;
+
+    border-radius:calc() ;
+}
+h1{
+    padding-bottom: 100px;
+    color: rgb(217, 18, 18);
+    text-align: left;
+}
+li,a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(80, 183, 125);
+    font-weight: bolder;
+}
+ a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.foo{
+    display:inline;
+    float: right;
+    background-color: rgb(212, 212, 212);
+    padding: 4px;
+}
+footer{
+    background-color: rgba(196, 238, 238, 0.384);
+}
+.validate{
+    float: right;
 }
