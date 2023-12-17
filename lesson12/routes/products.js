@@ -3,8 +3,8 @@ const router = express.Router();
 
 // Sample product data (for demo purposes)
 let products = [
-  { id: 1, name: 'Product A', price: 25 },
-  { id: 2, name: 'Product B', price: 30 },
+  { id: 1, name: 'car', price: 30000 },
+  { id: 2, name: 'phone', price: 1500 },
 ];
 
 // GET request for /products - Get all products
